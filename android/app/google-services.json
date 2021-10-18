@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889616883893",
+    "project_id": "testing-481f3",
+    "storage_bucket": "testing-481f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889616883893:android:296b5470dbfd242ed39efc",
+        "android_client_info": {
+          "package_name": "com.merncrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889616883893-ui54koqu975tdp694e9cfjlt862o1196.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDduyhOOiXUkc3LeQ4X_5cdUX81Qkrpb2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889616883893-ui54koqu975tdp694e9cfjlt862o1196.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
