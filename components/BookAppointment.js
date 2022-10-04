@@ -14,8 +14,9 @@ export default function BookAppointment({navigation}) {
         justifyContent:'center',alignItems:'center',}}
         onPress={() => navigation.navigate('ViewDoctor')}
         >
+          {/* This needs to be changed */}
             <Text style={{color:'white', fontSize:20}}>
-                Goto View Doctor
+                Goto View Doctor's Screen 
             </Text>
         </TouchableOpacity>
     </View>

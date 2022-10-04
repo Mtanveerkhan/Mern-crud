@@ -39,6 +39,7 @@ export default function ViewDoctor({navigation}) {
       })
       
       .catch(function (error) {
+        alert('error')
         console.log("Error getting documents: ", error);
       });
 
@@ -64,7 +65,6 @@ export default function ViewDoctor({navigation}) {
         <TouchableOpacity style={{height:'5%', width:'80%', backgroundColor:'blue',
         justifyContent:'center',alignItems:'center',}}
         onPress={() => getData()
-          // navigation.navigate('AddDoctor')
         }
         >
             <Text style={{color:'white', fontSize:20}}>
@@ -72,7 +72,6 @@ export default function ViewDoctor({navigation}) {
             </Text>
         </TouchableOpacity>
 
-        {/* <Text style={{fontSize:20}}>دماغی بیماری کا علاج</Text> */}
     </View>
   );
 }
