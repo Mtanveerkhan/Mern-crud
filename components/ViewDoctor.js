@@ -39,6 +39,7 @@ export default function ViewDoctor({navigation}) {
       })
       
       .catch(function (error) {
+        alert('error')
         console.log("Error getting documents: ", error);
       });
 
@@ -72,7 +73,6 @@ export default function ViewDoctor({navigation}) {
             </Text>
         </TouchableOpacity>
 
-        {/* <Text style={{fontSize:20}}>دماغی بیماری کا علاج</Text> */}
     </View>
   );
 }
